@@ -3,45 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width,initial-scale=1″>
     <link rel="stylesheet" type="text/css" href="res/css/style.css">
     <script type="text/javascript" src="res/js/app.js"></script>
     <title>Web design contest part!</title>
 </head>
 
-<body>
-    <h1>Welcome to web design contest!</h1>
-    <div style="display: flex;flex-wrap: wrap;">
+<body style="background-color: #eee;max-width: 800px;margin: auto;">
+    <h1 style="color: #444; text-align: center;">Welcome to web design contest!</h1>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
         <article>
-            <h3>No.1</h3>
-            <iframe width="390" height="844"
-                src="https://r-satoyama-github.github.io/web-design-contest-part1/"></iframe>
+            <a href="https://r-satoyama-github.github.io/web-design-contest-part1/" target="_blank">
+                <h3>No.1</h3>
+            </a>
         </article>
         <article>
-            <h3>No.2</h3>
-            <iframe width="390" height="844" src="https://ryuseihata.github.io/web-design-contest-part1/"></iframe>
+            <a href="https://ryuseihata.github.io/web-design-contest-part1/" target="_blank">
+                <h3>No.2</h3>
+            </a>
         </article>
         <article>
-            <h3>No.3</h3>
-            <iframe width="390" height="844" src="https://fukicycle.github.io/web-design-contest-part1-sato/"></iframe>
+            <a href="https://fukicycle.github.io/web-design-contest-part1-sato/" target="_blank">
+                <h3>No.3</h3>
+            </a>
         </article>
         <article>
-
-            <h3>No.4</h3>
-            <iframe width="390" height="844" src="https://shogo16212.github.io/web-design-contest-part1/"></iframe>
+            <a href="https://shogo16212.github.io/web-design-contest-part1/" target="_blank">
+                <h3>No.4</h3>
+            </a>
         </article>
         <article>
-            <h3>No.5</h3>
-            <iframe width="390" height="844" src="https://o-oyaizu.github.io/web-design-contest-part1/"></iframe>
+            <a href="https://o-oyaizu.github.io/web-design-contest-part1/" target="_blank">
+                <h3>No.5</h3>
+            </a>
         </article>
         <article>
-            <h3>No.6</h3>
-            <iframe width="390" height="844" src="https://kbys-beginner.github.io/web-design-contest-part1/"></iframe>
+            <a href="https://kbys-beginner.github.io/web-design-contest-part1/" target="_blank">
+                <h3>No.6</h3>
+            </a>
         </article>
     </div>
 </body>
 <style>
     article {
+        aspect-ratio: 1/1;
+        border-radius: 10px;
+        padding: 10px;
         margin: 10px;
+
+        background-color: #ddd;
+    }
+    a {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #444;
     }
 </style>
 
